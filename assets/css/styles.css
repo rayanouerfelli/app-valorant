@@ -1,0 +1,72 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  background-image: url(../image/maxresdefault.jpg);
+  background-size: cover;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 90px;
+}
+.main {
+  border: 7px solid rgb(9, 14, 36);
+  background-color: rgba(136, 68, 229, 0.3);
+  height: 750px;
+  width: 850px;
+  margin: auto;
+  border-radius: 200px;
+}
+.MonChoix {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+
+  margin: auto;
+}
+.tableau1 {
+  height: 100%;
+  width: 100%;
+}
+.boiteI img {
+  margin-left: 250px;
+  /* height: 100px; */
+  width: 350px;
+}
+.select {
+  border: solid orange;
+  color: rgb(255, 0, 119);
+  background-color: rgba(136, 68, 229, 0.3);
+  border-radius: 40px;
+  margin: 80px;
+  margin-left: 250px;
+  border: solid rgb(14, 22, 58);
+  width: 350px;
+  height: 50px;
+  font-size: 16px;
+}
+.boiteI2 {
+  display: flex;
+  /* height: 425px; */
+  width: 50%;
+}
+.boiteI2 img {
+  height: 100%;
+  width: 100%;
+}
+.ul {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.ul img {
+  height: 50px;
+  width: 50px;
+}
+label {
+  margin-left: 250px;
+  color: white;
+}
